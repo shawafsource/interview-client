@@ -36,3 +36,51 @@
     transform: rotate(360deg);
   }
 }
+
+.table {
+  width: 1000px;
+  margin-top: 20px;
+  justify-content: center;
+}
+
+.header1 {
+  width: 150px;
+  padding: 12px;
+  text-transform: capitalize;
+  font-size: 24px;
+}
+
+.showMore {
+  margin-top: 4px;
+  border: none;
+  background-color: cadetblue;
+  padding: 8px 16px;
+  cursor: pointer;
+  color: #282c34;
+}
+
+table {
+  margin: 20px auto;
+  border-collapse: collapse;
+}
+
+.overview {
+  height: 20px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+th,
+tr,
+td {
+  border: 1px solid black;
+}
+td {
+  padding: 8px;
+}
+
+.row {
+  max-height: 50px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
