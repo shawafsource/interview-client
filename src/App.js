@@ -1,11 +1,10 @@
 import './App.css';
-import ServerTestComponent from './components/ServerTestComponent';
+import CompanyDetails from './components/CompanyDetails';
 
 function App() {
   return (
     <div className="App">
-      <h1>Hello World</h1>
-      <ServerTestComponent/>
+      <CompanyDetails/>
     </div>
   );
 }
