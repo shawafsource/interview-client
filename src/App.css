@@ -36,3 +36,20 @@
     transform: rotate(360deg);
   }
 }
+
+table {
+  width: 300px;
+  border-collapse: collapse;
+}
+table,
+th,
+td {
+  border: 1px solid black;
+}
+th,
+td {
+  padding: 10px;
+}
+table.secondary caption {
+  caption-side: bottom;
+}
